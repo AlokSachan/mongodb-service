@@ -15,6 +15,7 @@ public class Department {
 
     @Field(name = "department_name")
     private String departmentName;
+    @Field(name = "location")
     private String location;
 
 }
