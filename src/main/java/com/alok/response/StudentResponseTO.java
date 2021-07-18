@@ -1,11 +1,11 @@
-package com.alok.entity;
+package com.alok.response;
 
+import com.alok.entity.Department;
+import com.alok.entity.Subject;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 
@@ -13,11 +13,8 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 @Builder
+public class StudentResponseTO {
 
-@Document(collection = "student")
-public class Student {
-
-    @Id
     private String id;
     private String name;
     private String email;
