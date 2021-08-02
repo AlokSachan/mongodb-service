@@ -1,3 +1,4 @@
+package com.alok.exception;
 import org.springframework.http.HttpStatus;
 
 import java.util.Collections;

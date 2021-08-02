@@ -1,3 +1,5 @@
+package com.alok.exception;
+
 public class ErrorCodes {
 
     public static final String ERR_40000_ALREADY_EXISTS = "ERR_40000_ALREADY_EXISTS";

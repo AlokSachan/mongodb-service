@@ -1,6 +1,10 @@
+package com.alok.exception;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import javax.print.attribute.standard.Severity;
 
 
 @JsonInclude(Include.NON_NULL)

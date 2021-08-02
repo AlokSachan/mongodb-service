@@ -1,4 +1,10 @@
-    
+package com.alok.exception;
+
+import org.springframework.http.HttpStatus;
+
+import java.util.Collections;
+import java.util.List;
+
 public class CustomException extends RuntimeException {
 
     private final HttpStatus httpStatus;
